@@ -37,7 +37,7 @@ int interval = 3600000;
 int interval2 = 5000;
 int rpm = 0;
 const char* www_username = "admin";
-const char* www_password = "225588";
+const char* www_password = "password";
 const char* host = "ESP8266";
 ESP8266WebServer server(80);
 byte nbrClient = 0;
