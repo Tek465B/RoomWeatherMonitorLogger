@@ -202,7 +202,7 @@ void LoadConfig() {
   }
   webSocket.begin();
   webSocket.onEvent(webSocketEvent);
-  ArduinoOTA.setPassword((const char *)"225588");
+  ArduinoOTA.setPassword((const char *)"password");
   ArduinoOTA.setHostname(host);
   ArduinoOTA.onEnd([]() {
     EEPROM.put(0, (MymillisCnt + millis()));
