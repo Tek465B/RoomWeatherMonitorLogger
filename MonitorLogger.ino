@@ -1,3 +1,10 @@
+/*
+   Temperature, humidity monitor and logger using ESP8266 with a webpage made with websocket and javascript.
+ 
+   2018-05-01
+   tek465b.github.io
+*/
+
 #include <Arduino.h>
 #include <OneWire.h>
 #include "DHT.h"
